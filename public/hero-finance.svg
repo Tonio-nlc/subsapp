@@ -1,0 +1,19 @@
+<!-- public/hero-finance.svg -->
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration de finances">
+  <rect width="1200" height="675" fill="white"/>
+  <rect x="80" y="120" width="1040" height="435" rx="24" fill="#EFF6FF" stroke="#E5E7EB"/>
+  <g transform="translate(140,180)">
+    <rect width="240" height="240" rx="16" fill="white" stroke="#E5E7EB"/>
+    <circle cx="120" cy="120" r="80" fill="#DBEAFE"/>
+    <path d="M120 40 A80 80 0 0 1 195 170 L120 120Z" fill="#60A5FA"/>
+  </g>
+  <g transform="translate(440,180)">
+    <rect width="580" height="240" rx="16" fill="white" stroke="#E5E7EB"/>
+    <rect x="40" y="160" width="60" height="60" rx="8" fill="#60A5FA"/>
+    <rect x="120" y="120" width="60" height="100" rx="8" fill="#93C5FD"/>
+    <rect x="200" y="80"  width="60" height="140" rx="8" fill="#60A5FA"/>
+    <rect x="280" y="40"  width="60" height="180" rx="8" fill="#93C5FD"/>
+    <rect x="360" y="110" width="60" height="110" rx="8" fill="#60A5FA"/>
+  </g>
+</svg>
+

@@ -1,0 +1,45 @@
+{
+  "name": "subsapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'Linting check skipped. Use typecheck or build instead.'",
+    "typecheck": "tsc --noEmit",
+    "prepare": "convex dev --once || true",
+    "test:smoke": "node scripts/smoke.cjs"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.34.0",
+    "clsx": "2.1.1",
+    "convex": "^1.28.0",
+    "date-fns": "4.1.0",
+    "file-saver": "2.0.5",
+    "next": "16.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "recharts": "3.3.0",
+    "uuid": "13.0.0",
+    "xlsx": "0.18.5",
+    "zustand": "5.0.8",
+    "lucide-react": "0.548.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "4.1.16",
+    "@types/file-saver": "2.0.7",
+    "@types/node": "22.10.2",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "@types/uuid": "10.0.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "16.0.0",
+    "postcss": "8.5.6",
+    "prettier": "3.4.2",
+    "tailwindcss": "4.1.16",
+    "typescript": "5.9.3"
+  }
+}
